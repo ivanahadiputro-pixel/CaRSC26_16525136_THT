@@ -34,6 +34,8 @@
     c. Tangkapan layar _"mapping mission"_
     ![alt text](<../Screenshot 2026-01-18 173652.png>)
 4. Development Environment
+    kAJKXKJBABCJSBJ
+
 
 5. Dasar-Dasar UAV
    
