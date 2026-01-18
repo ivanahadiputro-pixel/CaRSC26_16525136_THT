@@ -12,13 +12,13 @@
     - Git Push: Berfungsi untuk meng-_upload_ hasil pemrorgraman dari _local branch_ pada _remote branch_
 
     b. Tangkapan layar "Source Control"
-    ![2b](<../Screenshot 2026-01-19 002759.png>)
+    ![2b](<../lampiran/Screenshot 2026-01-19 002759.png>)
     c. Tangkapan layar "learngitbranching"
-    ![2c pic 1](<../Screenshot 2026-01-18 145712.png>)
-    ![2c pic 2](<../Screenshot 2026-01-18 150909.png>)
+    ![2c pic 1](<../lampiran/Screenshot 2026-01-18 145712.png>)
+    ![2C PIC 2](<../lampiran/Screenshot 2026-01-18 150909.png>)
    
     d. Tangkapan layar "Git SSH Security"
-    ![2d](<../Screenshot 2026-01-18 170845.png>)
+    ![2d](<../lampiran/Screenshot 2026-01-18 170845.png>)
     e. tercantum pada lampiran
 
 3. Pengenalan Ground Control Station
@@ -32,7 +32,7 @@
     - Simulation: Simulasi dan analisis penerbangan, digunakan untuk uji coba dan evaluasi misi penerbangan tanpa adanya risiko
     
     c. Tangkapan layar _"mapping mission"_
-    ![alt text](<../Screenshot 2026-01-18 173652.png>)
+    ![3c](<../lampiran/Screenshot 2026-01-18 173652.png>)
 4. Development Environment
     kAJKXKJBABCJSBJ
 
