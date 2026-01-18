@@ -24,7 +24,7 @@
 3. Pengenalan Ground Control Station
 
     a. Tangkapan layar utama Mission Planner
-    ![3a](<../Screenshot 2026-01-17 205949.png>)
+    ![3a](<../lampiran/Screenshot 2026-01-19 014235.png>)
     b. 4 fitur utama pada mission planner
     - Data: Memantau kondisi UAV secara _real time_, mengandung informasi seperti posisi UAV, _roll pitch yaw_, kecepatan, dan kondisi baterai dari UAV
     - Plan: Membuat dan mengatur misi terbang secara otomatis, merancang jalur UAV sebelum penerbangan melalui waypoints, takeoff dan landing, dan sebagainya
