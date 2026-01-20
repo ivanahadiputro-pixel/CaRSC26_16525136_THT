@@ -12,12 +12,16 @@
 
     - Perbedaan #define dan using: #define merupakan direktif untuk mengarahkan preprocessor untuk mengganti semua kemunculan makro (objek, fungsi) dengan token pengganti yang sudah ditentukan, sementara using merupakan kata kunci untuk membawa anggota namespace ke dalam scope program tanpa harus menuliskan kembali scope resolution operator yang bergantung pada using yang telah terdefinisikan
     - Cara kerja pointer (*) dan address of (&): Pointer merupakan operator untuk menyimpan memori address dari variabel yang setipe, sementara address of akan mengembalikan nilai dari lokasi dalam memori dimana variabel tersebut tersimpan\
-    - Konsep pass by value dan pass by reference dalam definisi variabel dan fungsi
+    - Konsep pass by value dan pass by reference dalam definisi variabel dan fungsi: pass by value akan membuat kopi dari fungsi atau variabel sehingga definisi variabel awal tidak akan berubah saat dalam fungsi, sementara pass by reference akan membuat ikatan langsung dengan variabel awal, sehingga dapat dirubah-rubah dalam fungsi
+    - Perbedaan std::unique_ptr dan std::shared_ptr: std::unique_ptr memiliki kepemilikan tunggal terhadap objeknya, sehingga responsi tinggi dan prosesnya cepat, namun tidak dapat menambah pemilik, hany adapat ditransfer melalui unique_ptr lainnya. std::shared_ptr memiliki kepemilikan yang lebih banyak sehingga lebih dari satu shared_ptr dapat menuju sebuah objek yang sama 
 
 
 3. Multithreading
     - Multithreading merupakan model dalam pemrograman untuk menjalankan 2 subprogram atau _thread_ secara bersamaan tanpa mengganggu satu sama lain
-    - 
+    - Tampilan layar terminal:
+    ![alt text](<../lampiran/Screenshot 2026-01-20 182147.png>)
+    _source code_ berada dalam folder "src" dengan nama "MultiThreading.py"
+
 4. Header
 5. Firmware
     
