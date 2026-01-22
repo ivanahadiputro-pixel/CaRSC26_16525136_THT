@@ -34,7 +34,9 @@
     c. Tangkapan layar _"mapping mission"_
     ![3c](<../lampiran/Screenshot 2026-01-18 173652.png>)
 4. Development Environment
-    - Instalation
+    
+    Instalasi Ubuntu 22.04 LTS menggunakan Orcale VM VirtualBox
+    - Instalation 
     ![alt text](<../lampiran/Screenshot 2026-01-19 164837.png>)
     - Talker Listener
     ![alt text](<../lampiran/Screenshot 2026-01-19 163626.png>)
@@ -90,7 +92,9 @@
     - Power System: Menyimpan daya yang tersisa pada UAV, secara umum berbentuk baterai
     - Telemetry: Komunikasi data antara UAV dan GCS
     - Ground Control Station: Monitoring dan kendali misi / _mission_
+    - ESC: Mengatur kecepatan dari motor
     - Diagram Block: 
+    ![alt text](<../lampiran/WhatsApp Image 2026-01-22 at 18.46.41.jpeg>)
     
     d. Jurnal Mengenai UAV
     - Konten: Komunikasi seluler pada UAV. Perkembangan UAV / _Drone_ yang tersedia untuk konsumen umum menghasilkan adanya kesempatan bisnis bagi para operator telekomunikasi contohnya, UAV yang terhubung dengan jaringan seluler dapat menjadi alat tambahan bagi pengguna yang dapat menghasilkan _revenue_ bagi perusahaan yang memiliki layanan untuk penggunaan UAV. Terdapat juga kesempatan untuk meletakkan _node_ telekomunikasi pada UAV sehingga dapat beradaptasi seusia kondisi dan meningkatkan jangkauan dari jaringan.
