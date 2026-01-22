@@ -68,3 +68,7 @@
         - Kalibrasi Nonlinear: Model matematis yang mengatasi distorsi geometri lensa yang rumit, melalui proses pendeteksi titik-titik sudut pada grid 2d, lalu mencocokkannya terhadap koordinat 3d untuk memperbaiki parameter intrinsik.
 5. OpenCV
 6. Tracking
+
+
+
+sumber:
