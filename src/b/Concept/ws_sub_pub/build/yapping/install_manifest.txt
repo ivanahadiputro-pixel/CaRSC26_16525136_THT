@@ -1,0 +1,17 @@
+/home/ibanahmd/ws_sub_pub/install/yapping/lib/yapping/clock
+/home/ibanahmd/ws_sub_pub/install/yapping/lib/yapping/watch
+/home/ibanahmd/ws_sub_pub/install/yapping/share/ament_index/resource_index/package_run_dependencies/yapping
+/home/ibanahmd/ws_sub_pub/install/yapping/share/ament_index/resource_index/parent_prefix_path/yapping
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/environment/ament_prefix_path.sh
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/environment/ament_prefix_path.dsv
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/environment/path.sh
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/environment/path.dsv
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/local_setup.bash
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/local_setup.sh
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/local_setup.zsh
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/local_setup.dsv
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/package.dsv
+/home/ibanahmd/ws_sub_pub/install/yapping/share/ament_index/resource_index/packages/yapping
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/cmake/yappingConfig.cmake
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/cmake/yappingConfig-version.cmake
+/home/ibanahmd/ws_sub_pub/install/yapping/share/yapping/package.xml
