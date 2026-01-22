@@ -1,6 +1,6 @@
 import threading
 import time
-import os
+from pathlib import Path
 
 
 def Video_Capture():
@@ -11,14 +11,13 @@ def Video_Capture():
         
 
 def Telemetry():
-    src_dir = os.path.dirname(os.path.abspath(__file__))
-
-    main_folder_dir = os.path.abspath(os.path.join(src_dir, ".."))
-    telemetry_path = os.path.join(main_folder_dir, "lampiran", "telemetry.txt")
+    src_dir = Path(__file__).resolve().parent
+    
+    telemetry_path = src_dir.parent.parent / "lampiran" / "telemetry.txt"
 
     print(f"Reading telemetry from: {telemetry_path}")
 
-    with open(telemetry_path, "r") as file:
+    with telemetry_path.open("r") as file:
         for line in file:
             time.sleep(3)
             print(line.rstrip())
