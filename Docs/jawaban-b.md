@@ -8,7 +8,7 @@
     - Penggunaan #ifdef, #ifndef, #endif dan #pragma once dalam header file: Menentukan subprogram atau blok kode mana yang dijalankna berdasarkan tipe header yang telah terdefinisi. Contoh : #ifdef Header_Ex, apabila Header_Ex terdefinisi maka blok kode di antara #ifdef dan #endif akan terjalani, apabil abelum terdefinisi, maka blok kode di antara #ifndef dan #endif akn terjalani
     - Penggunaan namespace dan scope resolution operator (::)
 
-        Namespace digunakna untuk mengelompokkan nama agar tidak terjadi konflik, semnetara :: digunakan untuk mengakses anggota namespace ataupun class
+        Namespace digunakan untuk mengelompokkan nama agar tidak terjadi konflik, semnetara :: digunakan untuk mengakses anggota namespace ataupun class
 
     - Perbedaan #define dan using: #define merupakan direktif untuk mengarahkan preprocessor untuk mengganti semua kemunculan makro (objek, fungsi) dengan token pengganti yang sudah ditentukan, sementara using merupakan kata kunci untuk membawa anggota namespace ke dalam scope program tanpa harus menuliskan kembali scope resolution operator yang bergantung pada using yang telah terdefinisikan
     - Cara kerja pointer (*) dan address of (&): Pointer merupakan operator untuk menyimpan memori address dari variabel yang setipe, sementara address of akan mengembalikan nilai dari lokasi dalam memori dimana variabel tersebut tersimpan\
@@ -30,9 +30,9 @@
     b. RTOS adalah OS terkhusus untuk sistem yang memiliki karakteristik _time sensitive_, RTOS memprioritaskan efek jeda yang singkat, manajemen data yang efisien, dan memiliki sistem prioirtas untuk tiap kerjaan yang dilakukan
 
     c. Protokol Komunikasi Serial
-    - UART
-    - SPI
-    - I2C
+    - UART: Universal Asynchronus Reciever Transmitter atau UART Merupakan sirkuit fisik dalam mikrokontroller antara 2 _device_ UART yang mengirim data secara langsung. Tipe data yang dikirim berupa paket, dimana paket tersebut memiliki _start bit_, _parity bit_, dan _end bit_. Ketiga kommponen ini berguna unutk mengetahui kapan data memulai dan berakhir, dan memastikan integritas dari data yang terkirim. UART merupakan protokol yang beroperasi tanpa clock sehingga _baud rates_ dari kedua _device_ UART harus mirip ataupun sama untuk meminimalisir kehilangan data
+    - SPI: Serial Peripheral Interface atau SPI merupakan protokol komunikasi antara _device_ yang memiliki hubungan _master-slave_ yang menggunakan 4 kabel yaitu CS, SCLK, MISO, dan MOSI. CS (Chip Select) mengatur interkoneksi antara _device slave_ dan _master_ yang berfungsi untuk _master_ memilih mau berkomunikasi dengan _slave device_ yang mana. SCLK berfungsi untuk _master device_ mengirimkan _clock_ yang diatur sehingga _slave device_ tidak memerlukan _clock_ mereka sendiri. _Clock_ mengindikasikan kapan data akan ter-_sampled_. MOSI (Master Out Slave In) merupakan sarana untuk _master device_ mengirimkan data kepada _slave device_. MISO (Master In Slave Out) merupakan sarana untuk _slave device_ mengirimkan data kepada _master device_. Apabila _slave device_ melebihi satu, terdapat 2 rangkaian umum yang digunakan, yang pertama adalah _independent slaves_ dan yang kedua adalah _cooperative slaves_ atau _daisy chain_. 
+    - I2C: Inter-integrated Circuit atau I2C merupakan protokol komunikasi antara _device_ yang memiliki hubungan _master-slave_ yang menggunakan 2 kabel yaitu SDA dan SCL. Pengiriman data menggunakan I2C memiliki template atau _frame_ yang terkhusus melalui kedua kabel ini. Dimulai dari _master devvice_ mengambil alih bus dengan memicu sebuah _start condition_ lalu _master device_ akan mengirim sebuah _slave address_ untuk memilih _slave device_ apa yang akan dituju, lalu _master device- memilih untuk antara _read_ dari _slave device_ atau _write_ data dari _slave device_. Setelah itu, _slave device_ akan _acknowledge_ keberadaan dari _master device_ lalu pengiriman data dimulai lalu di-_acknowledge_ setelah itu _master device_ akan mengirim sebuah _stop condition_ untuk menandakan bahwa pengiriman data selesai.
 ### Jawaban Soal ConCept
 1. ROS
     - Nodes
