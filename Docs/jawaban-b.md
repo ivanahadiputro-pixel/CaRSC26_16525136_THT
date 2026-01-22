@@ -72,3 +72,14 @@
 
 
 sumber:
+
+- https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+- https://en.cppreference.com/w/cpp
+- https://docs.python.org/3/library/threading.html
+- https://barrgroup.com/embedded-systems/glossary
+- https://www.freertos.org
+- https://www.nxp.com/docs/en/user-guide/UM10204.pdf
+- https://docs.ros.org/en/humble/Concepts.html
+- https://youtu.be/0nVNwozXsIc?si=z5TJL0Qxx3KSNSLm
+- https://youtu.be/CAvawEcxoPU?si=7R3_R1fPtrIfmdYx
+

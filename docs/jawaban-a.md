@@ -119,3 +119,15 @@
 
         EKF lebih cocok digunakan untuk aplikasi teknis yang real, seperti UAV dan robotika, hal ini disebabkan tidak ada model teknis real yang sepenuhnya linear.  
 
+
+sumber:
+
+- https://learngitbranching.js.org
+- https://youtu.be/i0oL5wek-c4?si=KKEgFC6mq-GbyQYI
+- https://www.faa.gov/regulations_policies/handbooks_manuals
+- https://youtu.be/ySN5Wnu88nE?si=FdbdeYEfvw-e-RL7
+- https://fbswiki.org/wiki/index.php/Main_Page
+- https://www.cs.unc.edu/~welch/media/pdf/kalman_intro.pdf
+
+
+
