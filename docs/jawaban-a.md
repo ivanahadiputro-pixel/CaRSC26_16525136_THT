@@ -19,8 +19,8 @@
    
     d. Tangkapan layar "Git SSH Security"
     ![2d](<../lampiran/Screenshot 2026-01-18 170845.png>)
-    e. tercantum pada lampiran
-
+    e. Branch History
+    ![alt text](<../lampiran/Screenshot 2026-01-22 214418.png>)
 3. Pengenalan Ground Control Station
 
     a. Tangkapan layar utama Mission Planner
