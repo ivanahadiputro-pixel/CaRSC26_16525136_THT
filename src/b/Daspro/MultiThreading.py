@@ -14,7 +14,7 @@ def Video_Capture():
 def Telemetry():
     src_dir = Path(__file__).resolve().parent
     
-    telemetry_path = src_dir.parent.parent / "lampiran" / "telemetry.txt"
+    telemetry_path = src_dir.parent.parent.parent / "lampiran" / "telemetry.txt"
 
     with telemetry_path.open("r") as file:
         for line in file:
